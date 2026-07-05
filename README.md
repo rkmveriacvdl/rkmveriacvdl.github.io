@@ -1,2 +1,2 @@
-# acvdl-courses.github.io
+# rkmveriacvdl.github.io
 ACVDL Courses are hosted here
