@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCP-SIG</title>
+    <!-- Link the style.css and script.js here -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a class="logo" style="color:rgb(217, 61, 61)">Competitive Coding with Python - Special Interest Group (CCP-SIG)</a>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <p>
+                    This work reflects my effort to address the challenge of maintaining consistency in competitive coding practice, 
+                    which is often difficult to sustain. To tackle this, I organized a small group consisting of peers from previous course 
+                    offering from RKMVERI who share an interest in competitive coding. We meet biweekly to discuss selected problems 
+                    based on specific topics using Google Meet. During these sessions, we explore algorithms, design optimal solutions, 
+                    and submit them on LeetCode to evaluate their time complexity. I chose Python as the primary language for this activity mainly due to personal preference. Python is widely used in machine 
+                    learning and deep learning, and its ability to support rapid prototyping makes it especially convenient. It allows us to 
+                    implement solutions quickly with minimal code, which is well-suited to the goals of this group.
+                    </p>
+
+                    <p>
+                    From a career perspective, proficiency in competitive coding and data structures and algorithms is crucial. 
+                    Whether applying for software development positions or research scientist roles, most industry jobs require a 
+                    screening process that involves solving such problems. Engaging in these biweekly sessions helps me approach 
+                    this otherwise mundane task with more motivation and accountability. Initially, I believed that regular practice in competitive coding would build the kind of muscle memory needed to excel. 
+                    However, I realized that the problems I will eventually face may differ and may not require the same type of muscle memory 
+                    to succeed. Nevertheless, these sessions remain valuable, as they provide a structured opportunity to meet, discuss 
+                    interesting problems, and keep up the practice consistently.
+                    </p>
+
+                    <p>
+                    We will begin with data structures and algorithmic problem-solving before gradually moving on to competitive coding. 
+                    It is important to note that competitive coding is challenging without a solid understanding of data structures, and most companies 
+                    focus heavily on DSA questions during job interviews. For the first three to four months, we will practice DSA problems on 
+                    LeetCode, after which we will shift to solving competitive programming challenges on Codeforces. We might shift to C++ or related languages for 
+                    efficiency, but still not sure if we make it to that stage.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="search-container">
+            <div class="container">
+                <input type="text" class="search-bar" placeholder="Search problems by title..." id="searchInput">
+            </div>
+        </div>
+
+        <section class="meeting-schedule">
+            <div class="container">
+                <h2 class="section-title">Meeting Schedule</h2>
+                <div class="meetings-grid">
+                    <div class="meeting-card" data-searchable>
+                        <div class="meeting-header">
+                            <div class="meeting-date">August 16, 2025</div>
+                            <div class="meeting-session">Session #1 (19 problems discussed on Arrays)</div>
+                        </div>
+                        <div class="problems-in-meeting">
+                            <h4>Problems Covered:</h4>
+                            
+                            <div class="problem-item" data-title="53. Maximum Subarray">
+                                <div class="problem-info">
+                                    <div class="problem-name">53. Maximum Subarray</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/maximum-subarray/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/53_max_subarray.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                            <div class="problem-item" data-title="978. Longest Turbulent Subarray">
+                                <div class="problem-info">
+                                    <div class="problem-name">978. Longest Turbulent Subarray</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/longest-turbulent-subarray/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/978_LongestTurbulentSubarray.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                             <div class="problem-item" data-title="219. Contains Duplicate II">
+                                <div class="problem-info">
+                                    <div class="problem-name">219. Contains Duplicate II</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/contains-duplicate-ii/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/219_ContainsDuplicateII.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                            <div class="problem-item" data-title="1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold">
+                                <div class="problem-info">
+                                    <div class="problem-name">1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/1343_NumberOfSub-arraysOfSizeKandAverageGreaterthanorEqualtoThreshold.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="209. Minimum Size Subarray Sum">
+                                <div class="problem-info">
+                                    <div class="problem-name">209. Minimum Size Subarray Sum</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/minimum-size-subarray-sum/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/209_MinimumSizeSubarraySum.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="3. Longest Substring Without Repeating Characters">
+                                <div class="problem-info">
+                                    <div class="problem-name">3. Longest Substring Without Repeating Characters</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/3_LongestSubstringWithoutRepeatingCharacters.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="125. Valid Palindrome">
+                                <div class="problem-info">
+                                    <div class="problem-name">125. Valid Palindrome</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/valid-palindrome/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/125_ValidPalindrome.txt">Python Code</a>
+                                </div>
+                            </div>
+                            
+
+                            <div class="problem-item" data-title="167. Two Sum II - Input Array Is Sorted">
+                                <div class="problem-info">
+                                    <div class="problem-name">167. Two Sum II - Input Array Is Sorted</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/167_TwoSumII-InputArrayIsSorted.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="26. Remove Duplicates from Sorted Array">
+                                <div class="problem-info">
+                                    <div class="problem-name">26. Remove Duplicates from Sorted Array</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/26_RemoveDuplicatesFromSortedArray.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="80. Remove Duplicates from Sorted Array II">
+                                <div class="problem-info">
+                                    <div class="problem-name">80. Remove Duplicates from Sorted Array II</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/80_RemoveDuplicatesfromSortedArrayII.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="11. Container With Most Water">
+                                <div class="problem-info">
+                                    <div class="problem-name">11. Container With Most Water</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/container-with-most-water/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/11_ContainerWithMostWater.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="problem-item" data-title="42. Trapping Rain Water (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">42. Trapping Rain Water (Revisit)</div>
+                                    <span class="difficulty hard">Hard</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/trapping-rain-water/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/42_TrappingRainWater.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="problem-item" data-title="303. Range Sum Query - Immutable">
+                                <div class="problem-info">
+                                    <div class="problem-name">303. Range Sum Query - Immutable</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/range-sum-query-immutable/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/303_RangeSumQuery-Immutable.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="724. Find Pivot Index (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">724. Find Pivot Index (Revisit)</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/find-pivot-index/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/724_FindPivotIndex.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="238. Product of Array Except Self (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">238. Product of Array Except Self (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/product-of-array-except-self/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/238_ProductofArrayExceptSelf.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+
+                             <div class="problem-item" data-title="560. Subarray Sum Equals K (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">560. Subarray Sum Equals K (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/subarray-sum-equals-k/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/560_SubarraySumEqualsK.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="problem-item" data-title="918. Maximum Sum Circular Subarray (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">918. Maximum Sum Circular Subarray (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/maximum-sum-circular-subarray/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/918_MaximumSumCircularSubarray.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="424. Longest Repeating Character Replacement (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">424. Longest Repeating Character Replacement (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/longest-repeating-character-replacement/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/424_LongestRepeatingCharacterReplacement.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                            <div class="problem-item" data-title="304. Range Sum Query 2D - Immutable (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">304. Range Sum Query 2D - Immutable (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Arrays</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/range-sum-query-2d-immutable/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/arrays/304_RangeSumQuery2DImmutable.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a href="materials/session_1/session_1.pdf" target="_blank" class="pdf-link">📄 Download Session Notes PDF</a>
+                        <a href="materials/session_1/attendance.txt" target="_blank" class="pdf-link">Attendance</a>
+                    </div>
+
+
+
+
+
+
+                    
+
+
+
+
+
+                    <div class="meeting-card" data-searchable>
+                        <div class="meeting-header">
+                            <div class="meeting-date">August 30, 2025</div>
+                            <div class="meeting-session">Session #2</div>
+                        </div>
+                        <div class="problems-in-meeting">
+                            <h4>Problems Covered:</h4>
+
+
+                            <div class="problem-item" data-title="876. Middle of the Linked List">
+                                <div class="problem-info">
+                                    <div class="problem-name">876. Middle of the Linked List</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Linked List</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/middle-of-the-linked-list/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/linked_list/876_MiddleoftheLinkedList.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                             <div class="problem-item" data-title="2130. Maximum Twin Sum of a Linked List">
+                                <div class="problem-info">
+                                    <div class="problem-name">2130. Maximum Twin Sum of a Linked List</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Linked List</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/linked_list/2130_MaximumTwinSumOfALinkedList.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+
+                             <div class="problem-item" data-title="141. Linked List Cycle">
+                                <div class="problem-info">
+                                    <div class="problem-name">141. Linked List Cycle</div>
+                                    <span class="difficulty easy">Easy</span>
+                                    <span class="problem-topic">Linked List</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/linked-list-cycle/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/linked_list/141_LinkedListCycle.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                             <div class="problem-item" data-title="142. Linked List Cycle II">
+                                <div class="problem-info">
+                                    <div class="problem-name">142. Linked List Cycle II</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Linked List</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/linked-list-cycle-ii/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/linked_list/142_LinkedListCycleII.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                             <div class="problem-item" data-title="287. Find the Duplicate Number (Revisit)">
+                                <div class="problem-info">
+                                    <div class="problem-name">287. Find the Duplicate Number (Revisit)</div>
+                                    <span class="difficulty medium">Medium</span>
+                                    <span class="problem-topic">Linked List</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/find-the-duplicate-number/description/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="code/linked_list/287_FindTheDuplicateNumber.txt">Python Code</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <a href="materials/session_2/session_2.pdf" target="_blank" class="pdf-link">📄 Download Session Notes PDF</a>
+                        <a href="materials/session_2/attendance.txt" target="_blank" class="pdf-link">Attendance</a>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                      <!-- 
+                    <div class="meeting-card" data-searchable>
+                        <div class="meeting-header">
+                            <div class="meeting-date">January 29, 2025</div>
+                            <div class="meeting-session">Session #2</div>
+                        </div>
+                        <div class="problems-in-meeting">
+                            <h4>Problems Covered:</h4>
+                            
+                            <div class="problem-item" data-title="Maximum Subarray">
+                                <div class="problem-info">
+                                    <div class="problem-name">Maximum Subarray</div>
+                                    <span class="problem-topic">Dynamic Programming</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/maximum-subarray/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="courses/ccp-sig/code/dp/maximum_subarray.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                            <div class="problem-item" data-title="Climbing Stairs">
+                                <div class="problem-info">
+                                    <div class="problem-name">Climbing Stairs</div>
+                                    <span class="problem-topic">Dynamic Programming</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/climbing-stairs/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="courses/ccp-sig/code/dp/climbing_stairs.txt">Python Code</a>
+                                </div>
+                            </div>
+
+                            <div class="problem-item" data-title="Binary Tree Inorder Traversal">
+                                <div class="problem-info">
+                                    <div class="problem-name">Binary Tree Inorder Traversal</div>
+                                    <span class="problem-topic">Trees</span>
+                                </div>
+                                <div class="problem-links">
+                                    <a href="https://leetcode.com/problems/binary-tree-inorder-traversal/" class="link-btn leetcode-btn" target="_blank">LeetCode</a>
+                                    <a href="#" class="link-btn code-btn" data-codepath="courses/ccp-sig/code/trees/binary_tree_inorder_traversal.txt">Python Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="pdf-link">📄 Download Session Notes PDF</a>
+                    </div> -->
+
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Code Modal -->
+    <div class="code-modal" id="codeModal">
+        <div class="code-modal-content">
+            <div class="code-modal-header">
+                <div class="code-modal-title" id="codeModalTitle">Python Code</div>
+                <button class="code-modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="code-modal-body">
+                <div class="loading-spinner" id="loadingSpinner">
+                    <div class="spinner"></div>
+                    Loading code...
+                </div>
+                <div class="code-content" id="codeContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p><a href="https://jimut123.github.io/" target="_blank" style="color: #d4edda; "> &copy 2025 Jimut Bahan Pal. All rights reserved.</a></p>
+        </div>
+    </footer>
+</body>
+</html>
